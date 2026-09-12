@@ -1,3 +1,7 @@
+## 0.3.0
+
+Room pages with lights, lock, garage, fan and thermostat controls and a 10-day activity history; thermostat control and the weather on Climate
+
 ## 0.2.1
 
 Feed failure reasons on screen, HLS pre-warm, deeper live buffer, native HLS on Safari, Mac companion app talk message
