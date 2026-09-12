@@ -5,7 +5,7 @@
 # the Supervisor only sees this folder when it builds, and the sources live
 # in web/. Bump `version` and tag `ha-app-v<version>` to publish.
 name: House
-version: "0.1.0"
+version: "0.1.1"
 slug: house
 description: The house at a glance - batteries, occupancy, internet, climate, security, cameras, power, systems - with lights and camera talk-back.
 url: https://github.com/CaryLandholt/home-assistant-toolkit
@@ -25,21 +25,17 @@ panel_admin: true
 # Core through the Supervisor's proxy with an injected token - no long-lived
 # token, no .env.
 homeassistant_api: true
+# No UniFi Network credential: since 2026-09-12 the per-client traffic comes
+# from the bw_device_internet_* sensors Home Assistant already holds, so the
+# server reads the controller through HA like everything else.
 options:
-  unifi_network_url: ""
-  unifi_network_api_key: ""
-  unifi_site: "default"
   unifi_protect_url: ""
   unifi_protect_api_key: ""
   ha_web_base: ""
   ha_mobile_base: "homeassistant://"
 schema:
-  # No defaults for anything that names this house: the controller URL and
-  # the keys are typed in (or !secret references) so nothing in this file
-  # says where or what the house is.
-  unifi_network_url: url
-  unifi_network_api_key: password
-  unifi_site: str
+  # No defaults for anything that names this house: URLs and keys are typed
+  # in (or !secret references) so nothing in this file says where the house is.
   unifi_protect_url: "url?"
   unifi_protect_api_key: "password?"
   # REQUIRED here: inside the container HA_URL is the Supervisor proxy, so the
