@@ -1,0 +1,48 @@
+# The web app as a Home Assistant App. Design and reasons:
+# docs/superpowers/specs/2026-09-11-ha-app-design.md
+#
+# The image is PREBUILT by .github/workflows/ha-app.yml and pulled from GHCR:
+# the Supervisor only sees this folder when it builds, and the sources live
+# in web/. Bump `version` and tag `ha-app-v<version>` to publish.
+name: House
+version: "0.1.0"
+slug: house
+description: The house at a glance - batteries, occupancy, internet, climate, security, cameras, power, systems - with lights and camera talk-back.
+url: https://github.com/CaryLandholt/home-assistant-toolkit
+arch:
+  - amd64
+  - aarch64
+image: ghcr.io/carylandholt/ha-toolkit-house-{arch}
+init: false
+# Ingress only. No `ports`: the container's 8787 is reachable from the
+# Supervisor alone, which is what makes listening on 0.0.0.0 inside it safe.
+ingress: true
+ingress_port: 8787
+panel_icon: mdi:home-analytics
+panel_title: House
+# It switches lights and talks through cameras.
+panel_admin: true
+# Core through the Supervisor's proxy with an injected token - no long-lived
+# token, no .env.
+homeassistant_api: true
+options:
+  unifi_network_url: ""
+  unifi_network_api_key: ""
+  unifi_site: "default"
+  unifi_protect_url: ""
+  unifi_protect_api_key: ""
+  ha_web_base: ""
+  ha_mobile_base: "homeassistant://"
+schema:
+  # No defaults for anything that names this house: the controller URL and
+  # the keys are typed in (or !secret references) so nothing in this file
+  # says where or what the house is.
+  unifi_network_url: url
+  unifi_network_api_key: password
+  unifi_site: str
+  unifi_protect_url: "url?"
+  unifi_protect_api_key: "password?"
+  # REQUIRED here: inside the container HA_URL is the Supervisor proxy, so the
+  # default the laptop uses ("same as HA_URL") would be a link nobody can open.
+  ha_web_base: url
+  ha_mobile_base: str
