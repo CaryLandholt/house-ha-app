@@ -1,3 +1,7 @@
+## 0.4.0
+
+The Claude Design rebuild: top-bar shell, Home quick actions on the house's Arm and Goodnight routines, rebuilt Rooms, Security, Climate, Cameras and House health pages, the Outside weather section
+
 ## 0.3.0
 
 Room pages with lights, lock, garage, fan and thermostat controls and a 10-day activity history; thermostat control and the weather on Climate
