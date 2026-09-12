@@ -1,3 +1,7 @@
+## 0.2.1
+
+Feed failure reasons on screen, HLS pre-warm, deeper live buffer, native HLS on Safari, Mac companion app talk message
+
 ## 0.2.0
 
 Rooms section, command palette, 24-hour camera detections, and a smooth live feed under ingress
