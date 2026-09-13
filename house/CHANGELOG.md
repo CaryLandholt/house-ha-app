@@ -1,3 +1,7 @@
+## 0.5.1
+
+Card borders, hover states and block spacing measured against the design
+
 ## 0.5.0
 
 One type scale across every screen, no Home Assistant link or footer, filters on Power and House health, the Hall's lights, whole-degree thermostat steps
