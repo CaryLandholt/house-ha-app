@@ -1,3 +1,7 @@
+## 0.5.2
+
+Quick-action tiles back to the card colour, with the design's own tile edges
+
 ## 0.5.1
 
 Card borders, hover states and block spacing measured against the design
