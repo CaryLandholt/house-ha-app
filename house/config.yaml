@@ -5,7 +5,7 @@
 # the Supervisor only sees this folder when it builds, and the sources live
 # in web/. Bump `version` and tag `ha-app-v<version>` to publish.
 name: House
-version: "0.4.0"
+version: "0.5.0"
 slug: house
 description: The house at a glance - batteries, occupancy, internet, climate, security, cameras, power, systems - with lights and camera talk-back.
 url: https://github.com/CaryLandholt/home-assistant-toolkit

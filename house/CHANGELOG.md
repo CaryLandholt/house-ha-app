@@ -1,3 +1,7 @@
+## 0.5.0
+
+One type scale across every screen, no Home Assistant link or footer, filters on Power and House health, the Hall's lights, whole-degree thermostat steps
+
 ## 0.4.0
 
 The Claude Design rebuild: top-bar shell, Home quick actions on the house's Arm and Goodnight routines, rebuilt Rooms, Security, Climate, Cameras and House health pages, the Outside weather section
