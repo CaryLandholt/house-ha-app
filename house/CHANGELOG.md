@@ -1,3 +1,7 @@
+## 0.5.3
+
+Every thermostat control steps a whole degree, the Climate hero included
+
 ## 0.5.2
 
 Quick-action tiles back to the card colour, with the design's own tile edges
