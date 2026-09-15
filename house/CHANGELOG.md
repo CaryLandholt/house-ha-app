@@ -1,3 +1,7 @@
+## 0.7.0
+
+The whole app moves onto the Claude Design style guide - its type scale, its four inks, a sky focus ring, a two-row header, and a full-width filter strip
+
 ## 0.6.0
 
 A room's lights are fixtures now - ceiling lights, vanity, chandelier, sconces, lamp - each one control
