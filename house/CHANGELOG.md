@@ -1,3 +1,7 @@
+## 0.8.0
+
+A Sensors screen: every battery and environment sensor in the house, banded by what it watches, with a page each
+
 ## 0.7.0
 
 The whole app moves onto the Claude Design style guide - its type scale, its four inks, a sky focus ring, a two-row header, and a full-width filter strip
