@@ -1,3 +1,7 @@
+## 0.9.0
+
+Sensors gains five classes and a measurement grid; the camera picture opens its camera, filters live in the URL, and every nav tab's glyph states its section
+
 ## 0.8.0
 
 A Sensors screen: every battery and environment sensor in the house, banded by what it watches, with a page each
