@@ -1,3 +1,7 @@
+## 0.6.0
+
+A room's lights are fixtures now - ceiling lights, vanity, chandelier, sconces, lamp - each one control
+
 ## 0.5.3
 
 Every thermostat control steps a whole degree, the Climate hero included
