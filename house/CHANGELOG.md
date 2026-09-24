@@ -1,3 +1,7 @@
+## 0.10.0
+
+Arm and disarm from Home with an auto re-secure countdown, nine tabs, Goodnight turns interior lights off and exterior on by Home Assistant label, All inside lights off, and a spent internet cap in red
+
 ## 0.9.0
 
 Sensors gains five classes and a measurement grid; the camera picture opens its camera, filters live in the URL, and every nav tab's glyph states its section
