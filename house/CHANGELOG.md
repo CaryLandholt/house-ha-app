@@ -1,3 +1,7 @@
+## 0.11.0
+
+Arm and disarm through UniFi's Alarm Manager, and Goodnight arms Night. Home gains a Lock/Unlock tile for every door, with the whole-house actions first. The Arm tile says where its reading came from: arming from the fob or the Protect app does not show here.
+
 ## 0.10.0
 
 Arm and disarm from Home with an auto re-secure countdown, nine tabs, Goodnight turns interior lights off and exterior on by Home Assistant label, All inside lights off, and a spent internet cap in red
