@@ -1,3 +1,7 @@
+## 0.11.1
+
+The alarm tile is labelled Alarm and names the mode Home Assistant last set, never a direction it cannot know - an arm or disarm from the fob or the Protect app does not reach Home Assistant.
+
 ## 0.11.0
 
 Arm and disarm through UniFi's Alarm Manager, and Goodnight arms Night. Home gains a Lock/Unlock tile for every door, with the whole-house actions first. The Arm tile says where its reading came from: arming from the fob or the Protect app does not show here.
