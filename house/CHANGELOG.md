@@ -1,3 +1,7 @@
+## 0.12.0
+
+The alarm is read from UniFi's own Alarm Manager, so arming from the fob or the Protect app shows; the Alarm tile says Arm or Disarm like a lock tile and offers each profile.
+
 ## 0.11.1
 
 The alarm tile is labelled Alarm and names the mode Home Assistant last set, never a direction it cannot know - an arm or disarm from the fob or the Protect app does not reach Home Assistant.
