@@ -1,3 +1,7 @@
+## 0.13.0
+
+The header states UniFi's alarm on every page - armed, arming, breached or disarmed - instead of whether every door is locked. Every light control is one bulb button: a room's turns every light off, or every light on, lamps included.
+
 ## 0.12.0
 
 The alarm is read from UniFi's own Alarm Manager, so arming from the fob or the Protect app shows; the Alarm tile says Arm or Disarm like a lock tile and offers each profile.
