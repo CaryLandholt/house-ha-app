@@ -1,3 +1,7 @@
+## 0.14.1
+
+The re-lock banner counts down live and goes away as soon as the door reads locked
+
 ## 0.14.0
 
 Every sensor shows everything its device reports - status, settings, firmware - and the sensors report their real state at last. Air quality (AQI, CO₂, particulates, VOC, vape) appears on Sensors and Climate. The new iPhone and Watch are tracked under their Apple names.
