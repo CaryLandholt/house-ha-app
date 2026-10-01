@@ -1,3 +1,7 @@
+## 0.15.0
+
+Air quality sensors get gauge rows, 24 h sparklines and a vape alert
+
 ## 0.14.1
 
 The re-lock banner counts down live and goes away as soon as the door reads locked
