@@ -1,3 +1,7 @@
+## 0.14.0
+
+Every sensor shows everything its device reports - status, settings, firmware - and the sensors report their real state at last. Air quality (AQI, CO₂, particulates, VOC, vape) appears on Sensors and Climate. The new iPhone and Watch are tracked under their Apple names.
+
 ## 0.13.0
 
 The header states UniFi's alarm on every page - armed, arming, breached or disarmed - instead of whether every door is locked. Every light control is one bulb button: a room's turns every light off, or every light on, lamps included.
