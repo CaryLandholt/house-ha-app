@@ -1,3 +1,7 @@
+## 0.17.0
+
+A Lights page lists every light by floor and room, with a tab that turns amber when a room is lit but empty
+
 ## 0.16.0
 
 Lights update reliably after Goodnight or arming, and the home-screen app offers a reload when a new version is out (Reload is also in the search palette)
