@@ -1,3 +1,7 @@
+## 0.16.0
+
+Lights update reliably after Goodnight or arming, and the home-screen app offers a reload when a new version is out (Reload is also in the search palette)
+
 ## 0.15.0
 
 Air quality sensors get gauge rows, 24 h sparklines and a vape alert
