@@ -1,3 +1,7 @@
+## 0.19.0
+
+Every sensor is one card showing what its kind is read for - a motion sensor's Clear or Detected, an environmental sensor's figures, an air sensor's headline readings - and each room page lists its sensors
+
 ## 0.18.1
 
 The thermostat setpoint takes several taps in a row and sends the last one
