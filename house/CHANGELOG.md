@@ -1,3 +1,7 @@
+## 0.18.1
+
+The thermostat setpoint takes several taps in a row and sends the last one
+
 ## 0.18.0
 
 Lights are switches now, every room's lights open in full with the wall switch, each bulb and a brightness for every fixture and bulb, and each card links to its room
