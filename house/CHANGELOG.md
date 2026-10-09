@@ -1,3 +1,7 @@
+## 0.18.0
+
+Lights are switches now, every room's lights open in full with the wall switch, each bulb and a brightness for every fixture and bulb, and each card links to its room
+
 ## 0.17.0
 
 A Lights page lists every light by floor and room, with a tab that turns amber when a room is lit but empty
