@@ -1,3 +1,7 @@
+## 0.20.1
+
+Closet lights follow their doors in the Foyer, both Primary Bedroom closets and the Secondary Bedroom; the Hall and Vestibule sensors appear in their rooms instead of Unassigned.
+
 ## 0.20.0
 
 Smoke alarms have their own band and turn red when they sound or fail, every Protect sensor's page shows Protect's own status and settings, and the lights carry the house's new names - with the office closet lighting itself from its doors
