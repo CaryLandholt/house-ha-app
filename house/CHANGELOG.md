@@ -1,3 +1,7 @@
+## 0.20.2
+
+A glass break Protect is holding shows on its sensor in red and raises a critical alert on Home until it is cleared in the Protect app
+
 ## 0.20.1
 
 Closet lights follow their doors in the Foyer, both Primary Bedroom closets and the Secondary Bedroom; the Hall and Vestibule sensors appear in their rooms instead of Unassigned.
