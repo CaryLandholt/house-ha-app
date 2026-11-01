@@ -1,3 +1,7 @@
+## 0.20.0
+
+Smoke alarms have their own band and turn red when they sound or fail, every Protect sensor's page shows Protect's own status and settings, and the lights carry the house's new names - with the office closet lighting itself from its doors
+
 ## 0.19.0
 
 Every sensor is one card showing what its kind is read for - a motion sensor's Clear or Detected, an environmental sensor's figures, an air sensor's headline readings - and each room page lists its sensors
