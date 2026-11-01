@@ -1,3 +1,7 @@
+## 0.20.3
+
+Occupancy follows the new room table: every room's own motion sensor, the Hall as a new room, doors that hold their room while open, and lights that follow occupancy in eleven rooms.
+
 ## 0.20.2
 
 A glass break Protect is holding shows on its sensor in red and raises a critical alert on Home until it is cleared in the Protect app
