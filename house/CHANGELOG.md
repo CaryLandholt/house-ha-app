@@ -1,3 +1,7 @@
+## 0.20.4
+
+Motion sensors carry their door-frame names (OFI Motion Sensor HAL), and Protect sensors waiting to be adopted no longer appear.
+
 ## 0.20.3
 
 Occupancy follows the new room table: every room's own motion sensor, the Hall as a new room, doors that hold their room while open, and lights that follow occupancy in eleven rooms.
