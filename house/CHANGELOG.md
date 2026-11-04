@@ -1,3 +1,7 @@
+## 0.21.0
+
+Automations: each room's presence, lights and closet door rules as settings - which sensors start or keep occupancy, when a room is empty, which lights come on and how bright by time of day - and the server reconnects when its link to Home Assistant drops.
+
 ## 0.20.4
 
 Motion sensors carry their door-frame names (OFI Motion Sensor HAL), and Protect sensors waiting to be adopted no longer appear.
