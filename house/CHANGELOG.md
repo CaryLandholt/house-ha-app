@@ -1,3 +1,7 @@
+## 0.21.1
+
+The Hall reads its third motion sensor, over the primary bedroom door.
+
 ## 0.21.0
 
 Automations: each room's presence, lights and closet door rules as settings - which sensors start or keep occupancy, when a room is empty, which lights come on and how bright by time of day - and the server reconnects when its link to Home Assistant drops.
