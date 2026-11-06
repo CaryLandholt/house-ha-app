@@ -1,3 +1,7 @@
+## 0.21.2
+
+Four rooms read their new motion sensors: two more in the Foyer, and one each in the Vestibule, the Living Room and the Hall.
+
 ## 0.21.1
 
 The Hall reads its third motion sensor, over the primary bedroom door.
